@@ -1,0 +1,196 @@
+.global-chart {
+    background: #2e302e;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Github Chart Map */
+
+.react-calendar-heatmap rect {
+    rx: 50%;
+    ry: 50%;
+    cursor: pointer;
+}
+
+.react-calendar-heatmap rect:hover {
+    border: #166f88;
+    cursor: pointer;
+}
+
+.react-calendar-heatmap {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 50px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.react-calendar-heatmap-weekday-label {
+    transform: translateX(-10px);
+}
+
+.react-calendar-heatmap-month-label {
+    transform: translate(24px, -2px);
+    text-anchor: middle;
+}
+
+.react-calendar-heatmap text {
+    font-size: 30px;
+}
+
+
+/* Years & colors Display */
+.years-colors-box {
+    font-family: "Kanchenjunga", sans-serif;
+}
+
+.years {
+    width: 200px;
+    height: 180px;
+    background: #2e302e;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #555555;
+}
+
+.years-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.years-list a {
+    text-decoration: none;
+    color: #f1efef;
+}
+
+.years-list li,
+.colors li {
+    margin: 5px;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.years-colors-box {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+
+.years-list li:hover {
+    background: #2994B2;
+}
+
+.colors {
+    width: 440px;
+    height: 180px;
+    background: #1b1b1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1efef;
+    font-weight: 500;
+}
+
+
+.color1,
+.color2 {
+    margin: 5px;
+}
+
+.color-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
+}
+
+.react-calendar-heatmap rect.c1 {
+    fill: #ffffff;
+}
+
+.react-calendar-heatmap rect.c2 {
+    fill: #2dc7ff;
+}
+
+.react-calendar-heatmap rect.c3 {
+    fill: #00abe7;
+}
+
+.react-calendar-heatmap rect.c4 {
+    fill: #0081af;
+}
+
+.react-calendar-heatmap rect.c5 {
+    fill: #f981a3;
+}
+
+.react-calendar-heatmap rect.c6 {
+    fill: #f84e8c;
+}
+
+.react-calendar-heatmap rect.c7 {
+    fill: #d81159;
+}
+
+.react-calendar-heatmap rect.c8 {
+    fill: #7d2449;
+}
+
+
+.c1 {
+    background: #ffffff;
+}
+
+.c2 {
+    background: #2dc7ff;
+}
+
+.c3 {
+    background: #00abe7;
+}
+
+.c4 {
+    background: #0081af;
+}
+
+.c5 {
+    background: #f981a3;
+}
+
+.c6 {
+    background: #f84e8c;
+}
+
+.c7 {
+    background: #d81159;
+}
+
+.c8 {
+    background: #7d2449;
+}
+
+.color-names {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: rgb(246, 176, 246); */
+    margin: 10px;
+}
+
+.color-names p {
+    text-align: center;
+    margin: 0;
+    margin-right: 18px;
+}

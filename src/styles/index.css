@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+input,
+button,
+p,
+h1,
+h2,
+h3,
+a {
+    font-family: "Kanchenjunga", sans-serif;
+}
+
+/* Home page Styling */
+.home-layout {
+    display: flex;
+}
+
+.side-bar {
+    height: 100vh;
+    border-right: 2px solid #f0f0f0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-bar {
+    flex: 4;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HomePage sidebar */
+.homepage-logo {
+    margin: 10px;
+    width: 140px;
+    cursor: pointer;
+}
+
+/* Add Transaction Button - sidebar*/
+.add-transaction-btn {
+    width: 150px;
+    height: 35px;
+    background: #2994B2;
+    /* margin-top: 20px; */
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-transaction-btn:hover {
+    background: #24819b;
+}
+
+/* Modal - Add Transaction Styling -sidebar*/
+.modal-header {
+    padding: 5px;
+}
