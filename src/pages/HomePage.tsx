@@ -1,7 +1,7 @@
 import CalendarHeatmap from 'react-calendar-heatmap';
 import { useState, useEffect } from 'react';
 import 'react-calendar-heatmap/dist/styles.css';
-import logo from "../assets/logo.png";
+import logo from "/assets/logo.png";
 import { signInWithGoogle, logout } from "../services/auth.ts";
 import Tooltip from 'react-tooltip';
 

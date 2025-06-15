@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-import view from "../assets/view.png";
-import hide from "../assets/hide.png";
-import logo from "../assets/logo.png";
+import view from "/assets/view.png";
+import hide from "/assets/hide.png";
+import logo from "/assets/logo.png";
 import { logout } from "../services/auth.ts";
 import { auth, provider } from "../services/firebase.ts";
 import HomePage from "./HomePage";
