@@ -10,5 +10,5 @@ Track your spending, one day at a time — visualized beautifully.
 
 
 ### Live Preview
-[daybit: track your spends]()
+[daybit: track your spends](https://thekenapatel.github.io/daybit/)
 
